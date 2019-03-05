@@ -6,7 +6,7 @@ public class thanks {
 	public static int getRounds(Scanner sc) {
 		int rounds = 0;
 		while(rounds < 1) {
-			System.out.print("Enter how many game will be played: ");
+			System.out.print("Enter how many games will be played: ");
 			try {
 				rounds = sc.nextInt();
 			} catch(Exception e) {
@@ -40,7 +40,7 @@ public class thanks {
 
 	public static int getUserInput(Scanner sc) {
 		int userInput = 0;
-		while(userInput < 1 || userInput > 3) {
+		while(userInput < 1 || userInput > 4) {
 			System.out.print("1: Rock\n2: Paper\n3: Scissors\nPlease enter your choice as a number: ");
 			try {
 				userInput = sc.nextInt();
@@ -115,6 +115,12 @@ public class thanks {
 				++youWins;
 			}
 			break;
+			case 4 :
+			System.out.println("You're a sneaky one");
+				++youWins;
+			break;
+
+
 			default :
 			System.out.println("I really did something wrong here...");
 		}
@@ -130,6 +136,8 @@ public class thanks {
 		System.out.println("Alright well after thoughts on this are that I just wasted like 20 minutes making this and I'm not really sure if it works or not, so it's up to you to test everything and make sure it's 100%");
 		System.out.println("If you have any additions or would like to make another game inside this go ahead. This is everything that I'm going to do...");
 		System.out.println("But I can't wait for Culver's!!!!!!!!! I am going to enjoy that very much");
+		System.out.println("I'm a genius and now I will never lose.");
+		System.out.println("I make my own luck... (also name that movie)");
 	}
 
 }
