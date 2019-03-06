@@ -4,3 +4,6 @@ Also you can copy your big project into this directory so that I can look at it 
 actually being in the same room as you
 
 If you don't know how to copy it in just let me know and I can try to help
+
+Also if you don't want to do that for the confusion, you can also make a new repository and 
+put your big project in that one
